@@ -1,2 +1,2 @@
 # Python-Practice
-My daily plan to study python....
+My daily plan to implement different codechef,hackerrank problems
