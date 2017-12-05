@@ -1,10 +1,11 @@
 '''This code may have bugs'''
-loop=int(input())
+loop = int(input())
 while loop>0:
-	in_val=input()
-	leni = len(in_val)
-	while leni>0:
-		print(in_val[leni-1],end='')
-		leni-=1
-	print()
+	n = int(input())
+	rev = []
+	while n>0:
+		last = n%10
+		rev.append(str(last))
+		n=n//10
+	print(''.join(rev))
 	loop-=1
