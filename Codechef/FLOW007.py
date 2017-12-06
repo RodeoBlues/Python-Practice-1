@@ -2,10 +2,10 @@
 loop = int(input())
 while loop>0:
 	n = int(input())
-	rev = []
+	rev = 0
 	while n>0:
 		last = n%10
-		rev.append(str(last))
+		rev=(rev*10)+last
 		n=n//10
-	print(''.join(rev))
+	print(rev)
 	loop-=1
