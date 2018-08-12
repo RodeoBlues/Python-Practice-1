@@ -1,8 +1,7 @@
-loop = int(input())
-while loop>0:
-		
+i = int(input())
+l=[]
+for _ in range(i):
+	l = [int(x) for x in input().split()]
 
-	loop-=1
-
-
+print(l)
 #[[1,213],[13,113]]
